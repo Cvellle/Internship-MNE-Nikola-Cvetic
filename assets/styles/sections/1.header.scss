@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding: calc(48rem / 16) 0 calc((127 - 48 - 28) * 1rem / 16) 0;
+
+    &__img-wrapper {
+        width: calc(118rem / 16);
+        height: calc(28rem / 16);
+    }
+}

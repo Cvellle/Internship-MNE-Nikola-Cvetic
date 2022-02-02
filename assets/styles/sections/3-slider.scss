@@ -1,0 +1,44 @@
+.slider {
+  padding: calc(749px - (627px + 58px)) 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__mark {
+    .line {
+      display: block;
+      background-color: #87879d;
+      height: calc(140px - 56px);
+      width: 1px;
+    }
+
+    & div {
+      margin: auto;
+      border-radius: 50%;
+      height: 56px;
+      width: 56px;
+      border: 1px solid #87879d;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__images {
+      display: flex;
+      flex-wrap: wrap;
+      
+      & figure {
+          flex: 0 0 50%;
+      }
+  }
+
+  & h2 {
+      margin-top: 50px;
+      text-align: center;
+  }
+
+  & h2 + p {
+      text-align: center;
+  }
+}
