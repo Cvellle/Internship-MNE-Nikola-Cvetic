@@ -3,6 +3,14 @@
     justify-content: center;
     padding: calc(48rem / 16) 0 calc((127 - 48 - 28) * 1rem / 16) 0;
 
+    @include tablet {
+        padding: calc(48rem / 16) 0 calc(64rem / 16) 0;
+    }
+
+    @include desktop {
+        padding: calc(80rem / 16) 0 calc(61rem / 16) 0;
+      }
+
     &__img-wrapper {
         width: calc(118rem / 16);
         height: calc(28rem / 16);

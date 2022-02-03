@@ -2,6 +2,7 @@ body {
     font-family: Red Hat Display, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
   
     @media only screen and (max-width: 1024px) {
       overflow-x: hidden;
@@ -69,6 +70,11 @@ body {
     margin-block-end: unset;
     margin-inline-start: unset;
     margin-inline-end: unset;
+  }
+
+  figure img {
+    height: 100%;
+    width: 100%;
   }
   
   a {
