@@ -532,6 +532,7 @@ ol {
   .footer__background {
     background: url("/assets/images/tablet/image-footer.jpg");
     background-size: contain;
+    padding: 3.6458333333vw 3.125vw 0;
     height: 55.7291666667vw;
     min-height: 55.7291666667vw;
     max-height: 55.7291666667vw;
