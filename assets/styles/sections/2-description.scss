@@ -4,7 +4,7 @@
   justify-content: center;
   overflow: hidden;
 
-  .description__img-wrapper {
+  &__img-wrapper {
     flex: 0 0 50%;
     min-height: 153px;
     overflow: hidden;
@@ -35,6 +35,8 @@
     }
 
     &--right {
+      justify-content: flex-end;
+
       @include desktop {
         order: 3;
       }
@@ -42,12 +44,16 @@
       & img {
         height: 100%;
         min-width: calc(193.23vw / 3.75);
-        transform: translateX(calc((15.54 - 13) / 3.75) * 1%);
+        transform: translateX(calc((13 / 3.75) * 1vw));
+
+        @include tablet {
+          transform: translateX(calc(calc(26vw / 7.68)));
+        }
 
         @include desktop {
           flex: 0 0 calc(394.96% / 14.4);
           min-width: unset;
-          transform: translateX(calc((88 - 32) / 14.4) * 1%);
+          transform: translateX(calc(32vw / 14.4));
           height: calc(303vw / 14.4);
           margin-left: auto;
           margin-top: auto;
@@ -63,12 +69,14 @@
     flex-direction: column;
     align-items: center;
 
+    @include tablet {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
     @include desktop {
       order: 1;
-      flex-direction: row;
-    flex-wrap: wrap;
-    flex: 0 0 calc(540% / 14.4);
-
+      flex: 0 0 calc(540% / 14.4);
     }
 
     & h1 {
@@ -105,12 +113,13 @@
 
       @include tablet {
         height: 52px;
-        padding: 0 155px;
+        width: 457px;
+        padding: 0 166px;
       }
 
       @include desktop {
-        padding: 0;
-        width: 540px;
+        padding: 0 88px;
+        width: 37.5%;
         font-size: 18px;
       }
     }
