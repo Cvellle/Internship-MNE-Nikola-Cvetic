@@ -157,6 +157,7 @@
     font-weight: 900;
     position: relative;
     z-index: 4;
+    transition: 0.3s;
 
     @include tablet {
       margin: 40px auto 66px;
@@ -164,6 +165,11 @@
 
     @include desktop {
       margin: 0 0 0 calc(92vw / 14.4);
+    }
+
+    &:hover {
+      background-color: #b18bdd;
+      transition: 0.3s;
     }
 
     & span {

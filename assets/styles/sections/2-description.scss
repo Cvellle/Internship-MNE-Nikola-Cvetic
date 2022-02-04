@@ -138,6 +138,7 @@
       line-height: 26px;
       font-weight: 900;
       font-family: Red Hat Display, sans-serif;
+      transition: 0.3s;
 
       @include tablet {
         display: inline-block;
@@ -153,6 +154,11 @@
           margin: 32px 8px 0 0;
         }
 
+        &:hover {
+          background-color: #71c0d4;
+          transition: 0.3s;
+        }
+
         & span {
           color: #8fe3f9;
         }
@@ -165,6 +171,11 @@
 
         @include tablet {
           margin: 32px 0 0 8px;
+        }
+
+        &:hover {
+          background-color: #b18bdd;
+          transition: 0.3s;
         }
       }
     }

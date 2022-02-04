@@ -288,6 +288,7 @@ ol {
   line-height: 26px;
   font-weight: 900;
   font-family: Red Hat Display, sans-serif;
+  transition: 0.3s;
 }
 @media screen and (min-width: 768px) {
   .description .description__text button {
@@ -305,6 +306,10 @@ ol {
     margin: 32px 8px 0 0;
   }
 }
+.description .description__text button.download:hover {
+  background-color: #71c0d4;
+  transition: 0.3s;
+}
 .description .description__text button.download span {
   color: #8fe3f9;
 }
@@ -317,6 +322,10 @@ ol {
   .description .description__text button.what {
     margin: 32px 0 0 8px;
   }
+}
+.description .description__text button.what:hover {
+  background-color: #b18bdd;
+  transition: 0.3s;
 }
 
 .gallery {
@@ -634,6 +643,7 @@ ol {
   font-weight: 900;
   position: relative;
   z-index: 4;
+  transition: 0.3s;
 }
 @media screen and (min-width: 768px) {
   .footer__download {
@@ -644,6 +654,10 @@ ol {
   .footer__download {
     margin: 0 0 0 6.3888888889vw;
   }
+}
+.footer__download:hover {
+  background-color: #b18bdd;
+  transition: 0.3s;
 }
 .footer__download span {
   color: #8fe3f9;
