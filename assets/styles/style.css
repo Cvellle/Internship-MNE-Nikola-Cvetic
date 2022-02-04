@@ -457,7 +457,11 @@ ol {
   font-size: 16px;
   line-height: 26px;
   color: #87879d;
-  width: 328px;
+  width: 327px;
+  word-break: whitespace;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
 }
 @media screen and (min-width: 768px) {
   .gallery h4 + p {
