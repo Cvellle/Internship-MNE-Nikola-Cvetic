@@ -151,12 +151,18 @@ ol {
 }
 .description__img-wrapper {
   flex: 0 0 50%;
-  min-height: 153px;
+  height: 40.8vw;
   overflow: hidden;
   display: flex;
 }
+@media screen and (min-width: 768px) {
+  .description__img-wrapper {
+    height: 39.453125vw;
+  }
+}
 @media screen and (min-width: 1280px) {
   .description__img-wrapper {
+    height: 24.8611111111vw;
     height: 24.8611111111vw;
     flex: 0 1 31.25%;
   }
@@ -451,7 +457,7 @@ ol {
   font-size: 16px;
   line-height: 26px;
   color: #87879d;
-  width: 327px;
+  width: 328px;
 }
 @media screen and (min-width: 768px) {
   .slider h4 + p {

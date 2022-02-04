@@ -6,11 +6,16 @@
 
   &__img-wrapper {
     flex: 0 0 50%;
-    min-height: 153px;
+    height: calc(153vw / 3.75);
     overflow: hidden;
     display: flex;
 
+    @include tablet {
+      height: calc(303vw / 7.68);
+    }
+
     @include desktop {
+      height: calc(358vw / 14.4);
       height: calc(358vw / 14.4);
       flex: 0 1 calc(450% / 14.4);
     }
