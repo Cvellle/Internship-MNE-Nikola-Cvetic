@@ -123,8 +123,8 @@
       }
 
       @include desktop {
-        padding: 0 88px;
-        width: 37.5%;
+        padding: 0 calc(88vw / 14.4);
+        max-width: 37.5vw;
         font-size: 18px;
       }
     }

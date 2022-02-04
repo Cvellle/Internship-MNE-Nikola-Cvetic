@@ -274,8 +274,8 @@ ol {
 }
 @media screen and (min-width: 1280px) {
   .description .description__text h1 + p {
-    padding: 0 88px;
-    width: 37.5%;
+    padding: 0 6.1111111111vw;
+    max-width: 37.5vw;
     font-size: 18px;
   }
 }
