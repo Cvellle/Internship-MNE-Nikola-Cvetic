@@ -18,10 +18,6 @@
 git clone https://github.com/Cvellle/Internship-MNE-Nikola-Cvetic.git
 ```
 
-```
-npm install
-```
-
 :rocket:
 
 ```
