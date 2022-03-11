@@ -25,7 +25,8 @@ npm install
 :rocket:
 
 ```
-see index.html - Ubuntu
+Windows: start index.html 
+Ubuntu: see index.html
 ```
 
 :sparkles:
