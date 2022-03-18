@@ -25,4 +25,6 @@ Windows: start index.html
 Ubuntu: see index.html
 ```
 
+![Screenshot](assets/screenshot1.png)
+
 :sparkles:
